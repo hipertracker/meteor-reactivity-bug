@@ -25,9 +25,11 @@ Npm.depends({
   react: '0.12.2'
 });
 
-/* workaround for this particular case
+/* A workaround for this particular case:
+
 Npm.depends({
   react: '0.12.2',
   'react-addons': '0.9.0'
 });
+
 */
