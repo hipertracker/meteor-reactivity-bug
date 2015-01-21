@@ -25,11 +25,5 @@ W20150121-23:47:35.887(0)? (STDERR)     at /Users/hipertracker/tmp/meteor-reacti
 => Exited with code: 8
 ```
 
-In that particular case, there is a workaround thanks to'react-addons' package.
-```
-React = require('react');
-React.addons = require('react-addons');
-```
-
 
 
