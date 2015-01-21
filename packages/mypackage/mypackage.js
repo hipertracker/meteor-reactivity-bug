@@ -1,6 +1,8 @@
 Ract = Npm.require('react/addons');
 
-/* workaround for that particular case
+/* A workaround for this particular case:
+
 React  Npm.require('react');
 React.addons = require('react-addons');
+
 */
