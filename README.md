@@ -3,6 +3,8 @@
 Meteor does not recognize all NPM packages. E.g.`require('react/addons')` is a valid syntax for Node, but not for Meteor. 
 
 ```
+$ gir clone https://github.com/hipertracker/meteor-reactivity-bug
+$ cd meteor-reactivity-bug
 $ meteor
 [[[[[ ~/tmp/meteor-reactivity-bug ]]]]]       
 
