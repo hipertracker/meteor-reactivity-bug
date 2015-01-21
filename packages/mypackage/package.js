@@ -20,4 +20,14 @@ Package.onTest(function(api) {
   api.use('mypackage');
   api.addFiles('mypackage-tests.js');
 });
-Npm.depends({react: '0.12.2'});
+
+Npm.depends({
+  react: '0.12.2'
+});
+
+/* workaround for this particular case
+Npm.depends({
+  react: '0.12.2',
+  'react-addons': '0.9.0'
+});
+*/
