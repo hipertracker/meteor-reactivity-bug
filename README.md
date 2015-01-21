@@ -1,6 +1,6 @@
 # meteor-reactivity-bug
 
-Meteor does not recognize all NPM modules. E.g.`require('react/addons')` is a perfect valid syntax for Node but not for Meteor.
+Meteor does not recognize all NPM modules. E.g.`require('react/addons')` is a valid syntax for Node, but not for Meteor. :(
 
 ```
 $ meteor
